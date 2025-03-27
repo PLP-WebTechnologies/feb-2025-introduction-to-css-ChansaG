@@ -1,0 +1,54 @@
+/* style.css */
+
+/* Styling for the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ID selector for the header */
+#header {
+    background-color: #4CAF50; /* Green background */
+    color: white;              /* White text */
+    text-align: center;        /* Center the text */
+    padding: 20px 0;           /* Padding on top and bottom */
+}
+
+/* Class selector for an image */
+.img-style {
+    width: 100%;               /* Make the image take up full width */
+    height: auto;              /* Maintain aspect ratio */
+    border: 5px solid #ddd;    /* Add border around image */
+    margin-bottom: 20px;       /* Add margin below the image */
+}
+
+/* Universal selector for the paragraph */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+/* Styling for a button with a class selector */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the button */
+.button:hover {
+    background-color: #45a049;
+}
